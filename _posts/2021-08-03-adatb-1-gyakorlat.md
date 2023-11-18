@@ -10,22 +10,7 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-# Tartalomjegyzék
-
-```toc
-# This code block gets replaced with the TOC
-exclude: Tartalomjegyzék
-```
-
-# Tisztázásképpen...
-
-> Az ismertetők olvasásakor gyakran ütközhettek olyan paragrafusokba, mint ez a paragrafus is (balról behúzott, szegélyezett és szürkén íródott). Ezek megjegyzések, fun factek, ismeretterjesztő bekezdések. Nem kötelező elolvasni, sem a bennük említett dolgokat megtanulni - kivéve ha amúgy is szó volt róla előadáson. Csupán a tudás mélyítéséért, kiegészítésként, avagy extraként szolgálnak, ami fenntarthatja érdeklődéseteket.
-
-> Az adatb posztok elméléti összefoglalói inkább az ismeretek ismétlésére íródtak, kevésbé az alaposság jegyében, inkább konyhanyelvet alkalmazva. Érdemes lehet jegyzeteinket és/vagy a könyvet jól átbogarászni egy vizsga előtt.
-
-> **U.i.: ha esetleg hibát véltek felfedezni akárhol, bátran szóljatok rám gyakorlaton, vagy kiáltsatok rám email címemen: [trisz@kir-dev.hu](mailto:trisz@kir-dev.hu).** Köszi.
-
-# Miről volt szó előadáson? - elméleti összefoglaló
+## Miről volt szó előadáson? - elméleti összefoglaló
 
 [Hivatalos jegyzet/könyv](https://db.bme.hu/~gajdos/Adatbazisok2019.pdf): 1. és 4. fejezet ismerendő a gyakorlatra.
 
@@ -142,9 +127,7 @@ Az ismeretek elsajátításával rájössz, hogy te lehetsz...
 
 > \*Az, hogy hogy lehet _okosan_ tervezni adatbázisokat, később, a _Relációs lekérdezések optimalizációja (könyv: 6. fejezet)_ és _Relációs sématervezés normalizálással (könyv: 9. fejezet)_ témájú előadásokon találkozhatsz.
 
-# Feladatsor
-
-## Feladatok
+## Feladatsor
 
 [Forrás](https://www.db.bme.hu/adatbazisok/files/er_feladatok.pdf).
 
@@ -152,10 +135,10 @@ Az ismeretek elsajátításával rájössz, hogy te lehetsz...
    - a) Tervezze meg a feladatnak megfelelő ER diagramot!
    - b) Az ER diagramban tárolni szeretnénk, hogy az egyes színészek _mely filmekben mely szereplőt_ játsszák. Ennek megfelelően bővítse a diagramot!
    - c) A filmekről tárolni szeretnénk, hogy krimi esetén _ki(k) játsszák az áldozato(ka)t_, természetfilmeknél pedig azt, hogy milyen ország(ok)ban forgatták őket.
-1. Iskolákat, azokon belüli _osztályokat_ valamint _tanárokat_ és _diákokat_ tartunk nyilván. Az iskolákról tároljuk a **nevüket**, **címüket**, **igazgatóik** kilétét. Az osztályokról tároljuk **létszámukat**, **nevüket**, **osztályfőnökük** valamint **tanulóik** kilétét. A tanárokról tároljuk, hogy **melyik osztályokat tanítják**, **mit tanítanak**. Minden emberről továbbá tároljuk a **személyes adatokat** (név, lakcím, szem_szám, születési időpont)
+2. Iskolákat, azokon belüli _osztályokat_ valamint _tanárokat_ és _diákokat_ tartunk nyilván. Az iskolákról tároljuk a **nevüket**, **címüket**, **igazgatóik** kilétét. Az osztályokról tároljuk **létszámukat**, **nevüket**, **osztályfőnökük** valamint **tanulóik** kilétét. A tanárokról tároljuk, hogy **melyik osztályokat tanítják**, **mit tanítanak**. Minden emberről továbbá tároljuk a **személyes adatokat** (név, lakcím, szem_szám, születési időpont)
    - a) Tervezze meg az ER diagramot, válassza meg a kulcsokat!
    - b) Az ER diagramban tároljuk a munkaviszonyok, hallgatói jogviszonyok kezdetét is.
-1. Egy lízing-szerződés kapcsán a kereskedő átadja a kocsit az ügyfélnek, a kocsit a bank fizeti ki a kereskedőnek és az ügyfél pedig a banknak törleszt. Milyen módokon lehet ábrázolni ER diagrammal? Melyiknek mi az előnye és a hátránya?
+3. Egy lízing-szerződés kapcsán a kereskedő átadja a kocsit az ügyfélnek, a kocsit a bank fizeti ki a kereskedőnek és az ügyfél pedig a banknak törleszt. Milyen módokon lehet ábrázolni ER diagrammal? Melyiknek mi az előnye és a hátránya?
 
 **Zárógondolat**: A jövő gyakorlatra érdemes lehet úgy készülni, hogy...
 
@@ -171,13 +154,13 @@ Ha találtok egyéb feladatot a könyvben, megoldjátok, elküldhetitek nekem a 
 
 Házi feladat megoldása: [Könyv](https://db.bme.hu/~gajdos/Adatbazisok2019.pdf), 233. oldal
 
-# Extra gondolatok
+## Extra gondolatok
 
-## Az adatbázisok érdekességei
+### Az adatbázisok érdekességei
 
 > Ebben a tárgyban az előadásokon és gyakorlatokon az adatbázisok logikai részével, illetve a fizikai részével ismerkedhettek meg, illetve a laborokon pedig egy enterprise környezetben is használt konkrét szoftveres-hardveres rendszerrel ismerkedhettek meg: az OracleDB-vel. Aki érdeklődik, esetleg a _Relációs adatbázisok_ előadás után nézzen utána a PostgreSQL, MySQL (ezek open source-ok) vagy MSSQL nevű RDBMS-eknek (Relational DBMS), tartogathatnak érdekességeket számotokra. Ezt természetesen akkor, ha időtök is engedi. Aki pedig még ennél is több ismeretre vágyna, olvassa el a könyv _C függelékét_ (274. oldal), amelyben a _[NoSQL adatbázisokról](https://hu.wikipedia.org/wiki/NoSQL)_ olvashat. Ehhez a témakörhöz a MongoDB vagy Redis konkrét DBMS-eket ajánlom ismerkedésre, ha időtök van rá.
 
-## Az első gyakorlat margójára
+### Az első gyakorlat margójára
 
 > Ne feledjétek, nem a tantárgy nehéz, maximum az akadály sok, amivel meg kell küzdeni. Ha megfelelő prioritást adtok a tantárgynak, bőven kellemes csalódást fog hozni a befektetett munkáért kiérdemelt vizsgajegy, amit elértek - ehhez a küzdelem fáj, tudom.
 > Érdemes lehet gyakorlat előtt elolvasod a könyv előadáshoz tartozó részét - **nem kell bemagolni**, elég 1 olvasás is akár. Labor előtt pedig ugyanezt mégegyszer megtenni - de azért megnyugatásképp: laborra **nem kell** a gyakorlat anyaga.

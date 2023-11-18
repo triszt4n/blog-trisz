@@ -10,23 +10,7 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-# Tartalomjegyzék
-
-```toc
-# This code block gets replaced with the TOC
-exclude: Tartalomjegyzék
-to-heading: 4
-```
-
-# Tisztázásképpen...
-
-> Az ismertetők olvasásakor gyakran ütközhettek olyan paragrafusokba, mint ez a paragrafus is (balról behúzott, szegélyezett és szürkén íródott). Ezek megjegyzések, fun factek, ismeretterjesztő bekezdések. Nem kötelező elolvasni, sem a bennük említett dolgokat megtanulni - kivéve ha amúgy is szó volt róla előadáson. Csupán a tudás mélyítéséért, kiegészítésként, avagy extraként szolgálnak, ami fenntarthatja érdeklődéseteket.
-
-> Az adatb posztok elméléti összefoglalói inkább az ismeretek ismétlésére íródtak, kevésbé az alaposság jegyében, inkább konyhanyelvet alkalmazva. Érdemes lehet jegyzeteinket és/vagy a könyvet jól átbogarászni egy vizsga előtt.
-
-> **U.i.: ha esetleg hibát véltek felfedezni akárhol, bátran szóljatok rám gyakorlaton, vagy kiáltsatok rám email címemen: [trisz@kir-dev.hu](mailto:trisz@kir-dev.hu).** Köszi.
-
-# Elméleti összefoglaló
+## Elméleti összefoglaló
 
 [Hivatalos jegyzet/könyv](https://db.bme.hu/~gajdos/Adatbazisok2019.pdf): 6. fejezet ismerendő a gyakorlatra.
 
@@ -131,9 +115,7 @@ Ez az ág nem könnyen magyarázható itt ilyen kérdés-válasz formában, ink�
 
 Előjöhet az a gondolat a legtöbbjüknél, hogy mi van, ha nem csak 1-1 blokkot tudunk a memóriában tárolni a joinok során, ilyenkor pedig legtöbbjüknél a ![brbs.png](/db/post4/brbs.png) képlet lehet használható. Hiszen gondoljunk csak bele, elég csupán beolvasni mindkét relációt egyszer a memóriába, utána akármilyen CPU műveletet végezhetünk velük, az ~0 millisecundumos idővel elvégezhető. 💡
 
-# Feladatsor
-
-## Feladatok
+## Feladatsor
 
 [Forrás](https://www.db.bme.hu/adatbazisok/files/optimalizalasgyak_2019.pdf).
 

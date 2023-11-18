@@ -10,22 +10,7 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-# Tartalomjegyzék
-
-```toc
-# This code block gets replaced with the TOC
-exclude: Tartalomjegyzék
-```
-
-# Tisztázásképpen...
-
-> Az ismertetők olvasásakor gyakran ütközhettek olyan paragrafusokba, mint ez a paragrafus is (balról behúzott, szegélyezett és szürkén íródott). Ezek megjegyzések, fun factek, ismeretterjesztő bekezdések. Nem kötelező elolvasni, sem a bennük említett dolgokat megtanulni - kivéve ha amúgy is szó volt róla előadáson. Csupán a tudás mélyítéséért, kiegészítésként, avagy extraként szolgálnak, ami fenntarthatja érdeklődéseteket.
-
-> Az adatb posztok elméléti összefoglalói inkább az ismeretek ismétlésére íródtak, kevésbé az alaposság jegyében, inkább konyhanyelvet alkalmazva. Érdemes lehet jegyzeteinket és/vagy a könyvet jól átbogarászni egy vizsga előtt.
-
-> **U.i.: ha esetleg hibát véltek felfedezni akárhol, bátran szóljatok rám gyakorlaton, vagy kiáltsatok rám email címemen: [trisz@kir-dev.hu](mailto:trisz@kir-dev.hu).** Köszi.
-
-# Elméleti összefoglaló
+## Elméleti összefoglaló
 
 [Hivatalos jegyzet/könyv](https://db.bme.hu/~gajdos/Adatbazisok2019.pdf): 5.1-5.3 alfejezetek ismerendőek a gyakorlatra.
 
@@ -110,15 +95,13 @@ Meg kell nézzük a **formuláink doménjeit**, ugyanis ha már **biztonságos a
 
 > A relációs adatbázisokkal kapcsolatban ajánlom az IBM rövid ismeretterjesztő videóit: [youtube.com/watch?v=OqjJjpjDRLc](https://www.youtube.com/watch?v=OqjJjpjDRLc)
 
-# Feladatsor
-
-## Feladatok
+## Feladatsor
 
 [Forrás](https://www.db.bme.hu/adatbazisok/files/relacios-lekerdezesek-handout.pdf).
 
 1. A lenti lekéréseket fogalmazzuk meg **relációalgebra** segítségével! _(ajánlott röv.: **"relalg"**)_
-1. A lenti lekéréseket fogalmazzuk meg **sorkalkulus** segítségével!
-1. A lenti lekéréseket fogalmazzuk meg **oszlopkalkulus** segítségével!
+2. A lenti lekéréseket fogalmazzuk meg **sorkalkulus** segítségével!
+3. A lenti lekéréseket fogalmazzuk meg **oszlopkalkulus** segítségével!
 
 Adottak alábbi lekérésigények:
 

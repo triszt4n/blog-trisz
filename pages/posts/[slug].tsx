@@ -2,14 +2,12 @@ import ErrorPage from 'next/error'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Container from '../../components/container'
-import Header from '../../components/header'
 import Layout from '../../components/layout'
 import PostBody from '../../components/post-body'
 import PostHeader from '../../components/post-header'
 import PostTitle from '../../components/post-title'
 import type PostType from '../../interfaces/post'
 import { getAllPosts, getPostBySlug } from '../../lib/api'
-import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 
 type Props = {
@@ -18,33 +16,15 @@ type Props = {
   preview?: boolean
 }
 
-const TableOfContents = ({ headings }) => {
-  return (
-    <div>
-      <p>On this page</p>
-      <ul>
-        {headings.map(({ slug, title }) => {
-          return (
-            <li key={title}>
-              <a href={`#${slug}`}>{title}</a>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
-  )
-}
-
 export default function Post({ post }: Props) {
   const router = useRouter()
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`
+  const title = `${post.title} | Trisztan's site`
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
   return (
     <Layout>
       <Container>
-        <Header />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
@@ -54,8 +34,7 @@ export default function Post({ post }: Props) {
                 <title>{title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
-              <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} />
-              <TableOfContents headings={post.toc} />
+              <PostHeader title={post.title} toc={post.toc} date={post.date} />
               <PostBody content={post.content} />
             </article>
           </>

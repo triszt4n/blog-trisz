@@ -10,25 +10,7 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-# Tartalomjegyzék
-
-```toc
-# This code block gets replaced with the TOC
-exclude: Tartalomjegyzék
-to-heading: 4
-```
-
-# Tisztázásképpen...
-
-> Az ismertetők olvasásakor gyakran ütközhettek olyan paragrafusokba, mint ez a paragrafus is (balról behúzott, szegélyezett és szürkén íródott). Ezek megjegyzések, fun factek, ismeretterjesztő bekezdések. Nem kötelező elolvasni, sem a bennük említett dolgokat megtanulni - kivéve ha amúgy is szó volt róla előadáson. Csupán a tudás mélyítéséért, kiegészítésként, avagy extraként szolgálnak, ami fenntarthatja érdeklődéseteket.
-
-> Az adatb posztok elméléti összefoglalói inkább az ismeretek ismétlésére íródtak, kevésbé az alaposság jegyében, inkább konyhanyelvet alkalmazva. Érdemes lehet jegyzeteinket és/vagy a könyvet jól átbogarászni egy vizsga előtt.
-
-> **U.i.: ha esetleg hibát véltek felfedezni akárhol, bátran szóljatok rám gyakorlaton, vagy kiáltsatok rám email címemen: [trisz@kir-dev.hu](mailto:trisz@kir-dev.hu).** Köszi.
-
-##### Az előző óra végén pár sorkalkulus sajnos lemaradt, illetve nem volt idő az oszlopkalkulusok tisztázására, így azok levezetési útmutatóját feltöltöttem az előző poszt [Megoldások paragráfusa](/db/2021-08-05-adatb-2-gyakorlat/#megoldások-új) alá.
-
-# Elméleti összefoglaló
+## Elméleti összefoglaló
 
 [Hivatalos jegyzet/könyv](https://db.bme.hu/~gajdos/Adatbazisok2019.pdf): 3. fejezet ismerendő a gyakorlatra.
 
@@ -145,9 +127,7 @@ Házi feladatként feladom a könyv 225. oldalán található Fizikai szervezés
 
 > Ha a kisujjadban van a fizikai architektúrák ismerete, és unalmas lenne számodra ez az anyagrész, és szívesebben foglalkoznál magasabb absztrakciós/szoftveres szintjeivel az adatbázisoknak, akkor ajánlom megtekintésre ezt a Youtube playlistet: [youtube.com/playlist?list=PLOspHqNVtKAAXDobTc9kBWwnfgzNV2k_a](https://youtube.com/playlist?list=PLOspHqNVtKAAXDobTc9kBWwnfgzNV2k_a) az IBM-től, amelyben a cloud alapú adattárolás iparban is széles körben felhasznált technológiáit mutatják be.
 
-# Feladatsor
-
-## Feladatok
+## Feladatsor
 
 [Forrás](https://www.db.bme.hu/adatbazisok/files/fiz_kiadando_feladatok_2019.pdf).
 

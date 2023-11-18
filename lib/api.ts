@@ -1,4 +1,3 @@
-import { extractHeadings } from 'extract-md-headings'
 import fs from 'fs'
 import matter from 'gray-matter'
 import { join } from 'path'
@@ -28,9 +27,6 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     }
     if (field === 'content') {
       items[field] = content
-    }
-    if (field === 'toc') {
-      items[field] = extractHeadings(slug)
     }
 
     if (typeof data[field] !== 'undefined') {

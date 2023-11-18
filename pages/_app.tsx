@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider>
-      <main className={inter.className}>
+      <main className={`${inter.className} bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100`}>
         <Component {...pageProps} />
       </main>
     </ThemeProvider>

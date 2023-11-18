@@ -22,13 +22,13 @@ const PuzzleAnimation: React.FC<Props> = ({ text }) => {
       <div>
         <div className="flex">
           <motion.div animate={animation} transition={{ ...transition, duration: 2 + Math.random() * 3 }}>
-            <PuzzleIcon1 className="w-[8rem] h-[8rem] text-teal-400" />
+            <PuzzleIcon1 className="w-[8rem] h-[8rem] text-purple-300" />
           </motion.div>
           <motion.div
             animate={animation}
             transition={{ ...transition, duration: 2 + Math.random() * 3, delay: Math.random() * 3 }}
           >
-            <PuzzleIcon2 className="w-[8rem] h-[8rem] text-indigo-500 ml-[-3.75rem]" />
+            <PuzzleIcon2 className="w-[8rem] h-[8rem] text-indigo-400 ml-[-3.75rem]" />
           </motion.div>
         </div>
         <div className="flex">

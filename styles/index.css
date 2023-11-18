@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  ol {
+    @apply list-decimal list-inside pl-4;
+  }
+  ul {
+    @apply list-disc list-inside pl-4;
+  }
+  a {
+    @apply text-deep-purple-800 hover:underline dark:text-deep-purple-300;
+  }
+  p,
+  ul,
+  ol,
+  blockquote {
+    @apply my-6 leading-relaxed;
+  }
+
+  ol ol {
+    @apply my-0;
+  }
+  ul ul {
+    @apply my-0;
+  }
+
+  h2 {
+    @apply text-4xl mt-12 mb-4 leading-snug;
+  }
+
+  h3 {
+    @apply text-2xl mt-8 mb-4 leading-snug;
+  }
+
+  h4 {
+    @apply text-xl mt-8 mb-4 leading-snug;
+  }
+
+  blockquote {
+    @apply italic pl-4 border-l-4 opacity-75 border-deep-purple-800;
+  }
+  table {
+    @apply text-sm text-left rtl:text-right my-10 leading-relaxed;
+  }
+
+  thead {
+    @apply text-xs font-semibold uppercase border-b border-gray-300 dark:border-gray-700;
+  }
+  tbody tr {
+    @apply border-b border-gray-200 dark:border-gray-700 odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-800;
+  }
+  tbody tr:last-child {
+    @apply border-b-0;
+  }
+  td,
+  th {
+    @apply px-4;
+  }
+  li img {
+    @apply inline-block;
+  }
+}
+
+.responsive-table {
+  @apply overflow-x-auto;
+}

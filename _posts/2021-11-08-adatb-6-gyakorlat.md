@@ -10,33 +10,11 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-# Tartalomjegyzék
-
-```toc
-# This code block gets replaced with the TOC
-exclude: Tartalomjegyzék
-to-heading: 4
-```
-
-# Tisztázásképpen...
-
-> Az ismertetők olvasásakor gyakran ütközhettek olyan paragrafusokba, mint ez a paragrafus is (balról behúzott, szegélyezett és szürkén íródott). Ezek megjegyzések, fun factek, ismeretterjesztő bekezdések. Nem kötelező elolvasni, sem a bennük említett dolgokat megtanulni - kivéve ha amúgy is szó volt róla előadáson. Csupán a tudás mélyítéséért, kiegészítésként, avagy extraként szolgálnak, ami fenntarthatja érdeklődéseteket.
-
-> Az adatb posztok elméléti összefoglalói inkább az ismeretek ismétlésére íródtak, kevésbé az alaposság jegyében, inkább konyhanyelvet alkalmazva. Érdemes lehet jegyzeteinket és/vagy a könyvet jól átbogarászni egy vizsga előtt.
-
-> **U.i.: ha esetleg hibát véltek felfedezni akárhol, bátran szóljatok rám gyakorlaton, vagy kiáltsatok rám email címemen: [trisz@kir-dev.hu](mailto:trisz@kir-dev.hu).** Köszi.
-
-# Elméleti összefoglaló
+## Elméleti összefoglaló
 
 [Hivatalos jegyzet/könyv](https://db.bme.hu/~gajdos/Adatbazisok2019.pdf): 9. fejezet ismerendő a gyakorlatra.
 
-# ÚJ: vizsga
-
-Lehetőséged van előre jelentkezni hozzám vizsgázni, ha szeretnél, [ebben a táblázatban](https://triszt4n.xyz/vizsga).
-
-# Feladatsor
-
-## Feladatok
+## Feladatsor
 
 [Forrás](https://www.db.bme.hu/adatbazisok/files/normalizalas.pdf).
 
